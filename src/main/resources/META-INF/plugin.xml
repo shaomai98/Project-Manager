@@ -9,7 +9,7 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.nusture.projectmanager.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <toolWindow factoryClass="com.github.nusture.projectmanager.toolWindow.MyLanguageToolWindowFactory" id="ProjectManager" anchor="right" icon="/icons/copyOfFolder.svg"/>
         <postStartupActivity implementation="com.github.nusture.projectmanager.startup.MyProjectActivity" />
     </extensions>
 </idea-plugin>
